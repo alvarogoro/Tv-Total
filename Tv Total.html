@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+	<meta charset="utf-8">
+	<title>Tv Total</title>
+	<meta name="Servicio IPTV" content="Alvaro Gorostiza">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        #info
+        {
+            font-size: 21px;
+            letter-spacing: 3px;
+            text-align: left;
+            text-shadow: 2px 2px red;
+            font-family: 'Magnificient Serif';
+            text-transform: uppercase;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        
+        p{
+            font-family: Rockstar-Regular, cursive;
+            font-size: 18px;
+        }
+    
+        
+        @font-face{
+            font-family: RockSalt-Regular;
+            src: url('C:\Users\AL\Desktop\ALVARO\PROGRAMACION\bootstrap_5\RockSalt-Regular.ttf');
+            font-family: 'Magnificient Serif';
+            src: url('C:\Users\AL\Desktop\ALVARO\PROGRAMACION\bootstrap_5\Magnificent Serif.ttf')
+        }
+        
+        #aplicaciones
+        {
+          text-align: center;
+            font-weight: 1000;
+            font-family: 'Magnificient Serif', sans-serif;
+        }
+        
+        #descripcion1{
+            text-align: justify-all;
+            font-size: 14px;
+        }
+        
+    </style>
+        
+        <!--
+        #que_es {
+            font-family: 'Magnificient Serif', serif;
+            font-size: 20 px;
+        }
+        
+        p {
+            font-family: RockSalt-Regular, cursive;
+            font-size: 17 px;
+        }
+        
+        #rock
+        {
+          font-family: RockSalt-Regular, cursive;
+            font-size: 200px;
+            font-weight: normal;
+            font-style: normal;
+        }
+ -->
+    
+    
+    <!-- forma 1 descargando archivos CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- forma 2 a traves del CDN CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	
+    <link rel="icon" type="image/x-icon" href=""/>
+</head>
+
+    
+    <body class="bg-light">
+    
+    <div>
+      
+    <img src="tvtotal.png" class="float-end" alt="" width="120" height="120">
+        <img src="tvtotal.png" class="float-start" alt="" width="120" height="120">
+
+    <ul class="nav justify-content-center bg-light p-4">
+  <li class="nav-item" margin-bottom:0>
+      <a class="nav-link text-dark bg-info" href="#"><h1>InfO</h1></a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link text-light bg-secondary" href="#"><h4>AplicacioneS</h4></a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link text-warning bg-success" href="#"><h1>ContenidoS</h1></a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link text-danger bg-dark" href="#"><h4>DemO GratiS</h4></a>
+  </li>
+      </ul>
+   
+    </div>
+ 
+    
+    <div class="bg-info p-1">
+        <p id="info">¿Qué es?</p>
+    </div>
+    <div class="bg-info text-dark">
+        
+        <p class="text-end p-3">
+            Tv Total es un servicio de IPTV (Televisión por Protocolo de Internet), bajo la órbita del servicio de contenidos de <strong>IPTV Para Todos</strong>.
+            Cuenta con más de <strong>1600 canales</strong> de América Latina, Europa, y EEUU, deportes PPV, <strong>490 series</strong>,  señales XXX (optativas) y <strong>2900 películas</strong> en diferentes calidades SD, HD, FHD y 4K.
+        </p>
+    </div>
+    
+    <div class="bg-info p-1">
+        <p id="info">¿Cómo funciona?</p>
+    </div>
+    
+    <div class="bg-info text-dark">    
+    <p class="text-end p-3">
+        
+    La prestación del servicio se realiza a partir de la instalación en el dispositivo de su elección de una aplicación o programa donde se carga el contenido de los canales, series y películas. La aplicación determinada dependerá del sistema operativo de dicho dispositivo: Android, iOS, Windows, Web OS, Tizen, Fire OS, etc.
+    <strong>Sin ningún costo adicional de instalación y con soporte técnico y atención del cliente para todas las consultas al instante 24/7</strong>.
+        </p>
+    </div>
+    
+    <div class="bg-info p-1">
+        <p id="info">Requisitos</p>
+    </div>
+
+    <div class="bg-info text-dark">    
+    <p class="text-end p-3">
+        Sólo se necesita una conexión estable de internet de aproximadamente <strong>20 MB</strong>, con <strong>latencia menor a 25 ms</strong>, y un dispositivo donde poder mirar: Smart Tv, celular, Tv box, tablet, PC. Cabe descatacar que el mejor funcionamiento del serviico dependerá en casi su totalidad de estas características de conectividad. Para poder testear estas condiciones y conocer el servicio ud puede hacer una <strong>demo gratis de 6 hs</strong>. Terminada esta prueba gratis y, en caso de querer contratar el servicio, el costo mensual del mismo es de 12 dólares y se puede abonar por <strong>PayPal, Xoom o Western Union</strong>.
+        Lo invitamos a realizar una demo gratis, <strong>sin ningún compromiso de compra</strong>, para que pueda <strong><em>experimentar HOY la televisión del MAÑANA</em></strong>.
+        </p>
+    </div>
+    
+    <!--<div class="container bg-secondary">-->
+  <div id="aplicaciones" class="row row-cols-6 text-light d-flex justify-content-center m-5">
+      <span class="border border bg-dark"><div class="col bg-secondary">Android<p id="descripcion1" class="text-light">Android es un sistema operativo diseñado para dispositivos móviles con pantalla táctil como teléfonos inteligentes o tablets, pero que también lo encontramos en otros dispositivos como relojes inteligentes, televisores o incluso en los sistemas multimedia de algunos modelos de coches. Un sistema operativo desarrollado por Google que se ha convertido en el principal responsable de la popularización de muchos dispositivos inteligentes por el hecho de facilitar el uso de una gran cantidad de aplicaciones de forma sencilla. Para dispositivos con este sistema oprativo podemos utilizar las siguientes apps para el uso de nuestro servicio: TV PARA TODOS, SMARTERS PLAYER, IPTV EXTREME, GSE, DUPLEX PLAY, entre otras.</p></div></span>
+    <span class="border border bg-dark"><div style="background: #f7f7f7; opacity: 0.6;" class="col text-dark">iOS<p id="descripcion1">iOS (en inglés “iPhone Operating System”) es un sistema operativo propietario de la empresa Apple Inc utilizado en dispositivos como smartphones, tablets y otros dispositivos como televisiones o reproductores mp4, entre ellos los famosos iPhone, iPad y iPod.
+    En esencia es muy similar a Android, permitiéndonos como éste instalar aplicaciones o apps, para aumentar las funcionalidades de nuestros dispositivos, con lo que además de las funciones básicas de un teléfono tendríamos aplicaciones ofimáticas, de productividad, almacenamiento en la nube, educativas, juegos y muchas más. Para este sistema podemos usar las siguientes apps: GSE, SMARTERS PLAYER, SMART IPTV.
+        </p></div></span>
+      <span class="border border bg-dark"><div class="col bg-secondary">Windows<p id="descripcion1"> Windows es un sistema operativo para computadoras, es propiedad de Microsoft y de su fundador, Bill Gates, y es uno de los más utilizados en todo el mundo. La función de los sistemas operativos de Windows es facilitar el acceso del usuario a la computadora, con una interfaz más bonita y fácil de usar, con nuevos programas, con mayor rapidez, etc.  En este entorno podemos usar: IPTV PARA TODOS, DUPLEX, VLC, SMARTERS.</p></div></span>
+      <span class="border border bg-dark"><div style="background: #f7f7f7; opacity: 0.6;" class="col text-dark">Web OS<p id="descripcion1">Web OS es el sistema operativo que utilizan las televisiones inteligentes de la marca LG y es exclusivo de la empresa coreana. Permite, a los usuarios de estas Smart TV, descargar aplicaciones y navegar desde su propio televisor. WebOS es uno de los sistemas operativos más fluidos y con una facilidad de uso sobresaliente. Es atractivo, sencillo de usar y destaca por una buena velocidad. Aplicaciones disponibles: SMARTERS PALYER, SMART IPTV, GSE, SS IPTV, DUPLEX PLAY.</p></div></span>
+      <span class="border border bg-dark"><div class="col bg-secondary">Tizen<p id="descripcion1">El sistema operativo de Samsung en sus Smart TV actualmente es Tizen. Se trata de uno de los más populares y los más recomendables. Está no solo en los televisores sino en la mayoría de productos de la marca como pueden ser incluso aires acondicionados, hornos o cámaras. Y también, cómo no, en los televisores. El de Samsung es uno de los sistemas operativos de televisores más fluidos y que mejor va en cuanto a aplicaciones, no hay retrasos y es uno de los más aplaudidos. Para el uso del servicio de IPTV y dependiendo de la versión del sistema Tizen podemos encontrar: NET IPTV, SET IPTV, BAY IPTV, DUPLEX PLAY, SMART IPTV, SS IPTV. </p></div></span>
+      <span class="border border bg-dark"><div style="background: #f7f7f7; opacity: 0.6;" class="col text-dark">Fire OS<p id="descripcion1">No es como tal un sistema operativo de televisores sino un sistema operativo que encontramos en los dispositivos de Amazon para ver TV: Fire TV en todos sus modelos. Además, también algunos televisores actuales de Toshiba tienen Amazon como sistema operativo aunque no todos. Aplicaciones compatibles: IPTV PARA TODOS, XC IPTV, DUPLEX PLAY, SMART IPTV.</p></div></span>
+  </div>
+
+<div class="container bg-success">
+    <img src="canales.png" class="img-fluid">
+    <h1 class="display-2 text-warning text-end w-auto p-3"><strong>1635 canales</strong></h1>
+</div>
+        
+        <div class="container bg-success">
+    <img src="peliculas.jpg" class="img-fluid">
+    <h1 class="display-2 text-warning text-end w-auto p-3"><strong>2912 películas</strong></h1>
+</div>
+    
+           <div class="container bg-success">
+    <img src="serie.jpg" class="img-fluid">
+    <h1 class="display-2 text-warning text-end w-auto p-3"><strong>498 series</strong></h1>
+</div>
+     
+        <div class="bg-dark p-3 m-3">
+       <p class="display-6 text-danger text-center">Solicita tu demo gratiS</p>
+            <input class="form-control form-control-lg" type="text" placeholder="nombre y apellido" aria-label=".form-control-lg example">
+            <br>
+            <br>
+            <input class="form-control form-control-lg" type="text" placeholder="whats app" aria-label=".form-control-lg example">
+            <br>
+            <br>
+            <button type="button" class="btn btn-danger">ENVIAR</button>
+        </div>
+        
+       
+
+     
+    <!-- forma 1 descaragando archivos JS -->
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- forma 2 a través del CDN JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- cdn jq-->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+
+</body>
+</html>
